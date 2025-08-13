@@ -97,28 +97,114 @@ O projeto resolve a detecção tardia de queimadas em áreas remotas, que atualm
 - Concorrentes fornecem dados confiáveis e cobertura ampla (satélite);  
 - Recomenda-se diferenciar o **Projeto Boitatá-II** pela rapidez de detecção, baixo custo, escalabilidade e acessibilidade em áreas remotas.
 
-### Personas
+## Personas
 
-- Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o serviço ou poduto deve guardar?
+O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessidades específicas em relação ao monitoramento de queimadas.  
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+**Persona primária: Analista de Monitoramento Ambiental**
+
+- **Contexto social/econômico/cultural:**  
+  Profissional com formação em áreas ambientais ou tecnológicas, trabalha em órgãos governamentais ou institutos de pesquisa, geralmente com experiência prévia em monitoramento ambiental e uso de tecnologias de informação. Recebe pressão por relatórios precisos e rápidos sobre focos de incêndio.  
+- **Informações que o serviço deve guardar:**  
+  - Histórico de alertas de queimadas por região;  
+  - Dados de sensores em tempo real;  
+  - Logs de intervenções e ações tomadas;  
+  - Perfis de usuários e permissões de acesso.  
+
+**Persona secundária: Bombeiro Florestal**
+
+- **Contexto social/econômico/cultural:**  
+  Profissional de campo, atuando diretamente na prevenção e combate a incêndios florestais. Experiência prática, mas nem sempre alta familiaridade com tecnologias avançadas. Valoriza informações rápidas e confiáveis para tomada de decisões em situações críticas.  
+- **Informações que o serviço deve guardar:**  
+  - Alertas de foco de incêndio em tempo real;  
+  - Localização e status de equipamentos de combate;  
+  - Histórico de ocorrências e ações realizadas;  
+  - Notificações personalizadas conforme região de atuação.  
+
+**Outras personas**
+
+- Pesquisadores ambientais interessados em dados históricos de queimadas;  
+- Gestores de unidades de conservação que precisam planejar estratégias de prevenção;  
+- ONGs ambientais que monitoram impactos ecológicos em tempo real.  
 
 ### Mapa de empatia
 
 ![Mapa de empatia](empatia.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com serviço ou poduto.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação ao serviço ou poduto. Quais expectativas o usuário cria sobre o serviço ou poduto?
-  Que tipo de serviço ou poduto mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
+**Persona primária: Analista de Monitoramento Ambiental**
 
+- **O que o usuário vê:**  
+  - Painéis web com gráficos, mapas e alertas em tempo real;  
+  - Equipe de colegas trabalhando simultaneamente;  
+  - Relatórios de satélite e sensores;  
+  - Notificações de focos de queimadas.  
+
+- **O que o usuário ouve:**  
+  - Comunicação interna da equipe;  
+  - Alertas sonoros do sistema;  
+  - Informações recebidas de outras agências ou órgãos ambientais.  
+
+- **O que o usuário diz e faz:**  
+  - Analisa dados e identifica regiões críticas;  
+  - Compartilha alertas com equipes de campo;  
+  - Atualiza registros e envia relatórios periódicos;  
+  - Interage com o painel para filtrar e visualizar informações específicas.  
+
+- **O que o usuário pensa e sente:**  
+  - Sente responsabilidade pela precisão dos alertas;  
+  - Preocupa-se com o tempo de resposta e confiabilidade do sistema;  
+  - Espera um sistema ágil, intuitivo e seguro;  
+  - Valoriza dados claros e fáceis de interpretar para tomada de decisão rápida.  
+
+- **Dores:**  
+  - Atraso na recepção de dados;  
+  - Falta de integração com diferentes fontes de informação;  
+  - Painéis complexos ou pouco intuitivos;  
+  - Falta de histórico ou registro confiável de eventos.  
+
+- **Ganhos:**  
+  - Receber alertas em tempo real;  
+  - Facilitar tomada de decisões com informações precisas;  
+  - Acesso a histórico de dados confiável;  
+  - Interface intuitiva e de fácil interpretação.
+
+
+**Persona secundária: Bombeiro Florestal**
+
+- **O que o usuário vê:**  
+  - Área de operação com sensores distribuídos;  
+  - Alertas visuais em dispositivos móveis ou tablets;  
+  - Outros membros da equipe em campo.  
+
+- **O que o usuário ouve:**  
+  - Sons de alertas do sistema;  
+  - Comunicações da equipe via rádio ou aplicativo;  
+  - Ambiente natural (vento, animais, fogo).  
+
+- **O que o usuário diz e faz:**  
+  - Recebe alertas e se desloca para o foco de incêndio;  
+  - Registra ocorrências e ações no sistema;  
+  - Comunica atualizações à central e colegas de campo.  
+
+- **O que o usuário pensa e sente:**  
+  - Precisa de confiança nas informações para agir rapidamente;  
+  - Sente pressão em situações de emergência;  
+  - Valoriza sistemas intuitivos e confiáveis;  
+  - Quer reduzir riscos pessoais e maximizar eficiência da equipe.  
+
+- **Dores:**  
+  - Alertas atrasados ou imprecisos;  
+  - Falta de dados claros sobre a localização e intensidade do fogo;  
+  - Dificuldade de acesso a informações no campo;  
+  - Interfaces complexas ou pouco responsivas em dispositivos móveis.  
+
+- **Ganhos:**  
+  - Alertas rápidos e precisos em dispositivos móveis;  
+  - Informação georreferenciada sobre focos de incêndio;  
+  - Sistema confiável mesmo em áreas remotas;  
+  - Redução de risco e melhoria na eficiência das operações.
+ 
+  
 ## Contexto de uso
 
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
