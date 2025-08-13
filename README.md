@@ -21,7 +21,6 @@ O Boitatá-II visa fornecer um sistema eficiente e confiável para detecção pr
 O projeto resolve o problema da detecção tardia de queimadas em áreas remotas, que atualmente depende de imagens de satélite, muitas vezes atrasadas ou afetadas por nuvens. Também reduz a necessidade de patrulhamento manual contínuo, economizando recursos e aumentando a segurança de profissionais no campo.
 
 **Características e funcionalidades detalhadas:**
-
 Estações de monitoramento automáticas baseadas em Arduino;
 Comunicação LoRa P2P para transmissão de dados em áreas de difícil acesso;
 Painel de monitoramento central com visualização em tempo real de alertas;
