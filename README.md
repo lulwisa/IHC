@@ -97,7 +97,7 @@ O projeto resolve a detecção tardia de queimadas em áreas remotas, que atualm
 - Concorrentes fornecem dados confiáveis e cobertura ampla (satélite);  
 - Recomenda-se diferenciar o **Projeto Boitatá-II** pela rapidez de detecção, baixo custo, escalabilidade e acessibilidade em áreas remotas.
 
-## Personas
+**Personas**
 
 O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessidades específicas em relação ao monitoramento de queimadas.  
 
