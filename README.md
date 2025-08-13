@@ -10,101 +10,92 @@ Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Pro
 
 ## Resumo
 
-O Projeto Boitatá-II é um sistema de monitoramento de queimadas que utiliza tecnologia LoRa P2P para comunicação sem fio ponto a ponto. Ele permite a detecção rápida de focos de queimadas em áreas remotas com vegetação densa, oferecendo um painel de monitoramento acessível e ágil para os responsáveis pelo combate a incêndios. O sistema amplia a proposta do Boitatá-I, superando limitações de sistemas baseados em imagens de satélite, como atrasos temporais e interferência por cobertura de nuvens.
+O **Projeto Boitatá-II** é um sistema de monitoramento de queimadas que utiliza tecnologia **LoRa P2P** para comunicação sem fio ponto a ponto. Ele permite a detecção rápida de focos de queimadas em áreas remotas com vegetação densa, oferecendo um painel de monitoramento acessível e ágil para os responsáveis pelo combate a incêndios. O sistema amplia a proposta do **Projeto Boitatá-I**, superando limitações de sistemas baseados em imagens de satélite, como atrasos temporais e interferência por cobertura de nuvens.
+
+---
 
 ## Introdução
 
-**Propósito e benefícios:**
-O Boitatá-II visa fornecer um sistema eficiente e confiável para detecção precoce de queimadas, permitindo maior agilidade nas ações de combate e mitigação dos impactos ambientais. Seus principais benefícios incluem: detecção rápida, monitoramento em tempo real, acessibilidade em áreas remotas, e redução da dependência de sistemas convencionais de monitoramento por satélite.
+**Propósito e benefícios:**  
+O Boitatá-II visa fornecer um sistema eficiente e confiável para detecção precoce de queimadas, permitindo maior agilidade nas ações de combate e mitigação dos impactos ambientais.  
+Principais benefícios:  
+- Detecção rápida de focos de incêndio;  
+- Monitoramento em tempo real;  
+- Acessibilidade em áreas remotas;  
+- Redução da dependência de sistemas convencionais de satélite;  
+- Inclusão do índice de **Risco de Fogo/Programa Queimadas**;  
+- Baixo tempo de resposta para alertas.  
 
-**Problemas ou necessidades atendidas:**
-O projeto resolve o problema da detecção tardia de queimadas em áreas remotas, que atualmente depende de imagens de satélite, muitas vezes atrasadas ou afetadas por nuvens. Também reduz a necessidade de patrulhamento manual contínuo, economizando recursos e aumentando a segurança de profissionais no campo.
+**Problemas ou necessidades atendidas:**  
+O projeto resolve a detecção tardia de queimadas em áreas remotas, que atualmente depende de imagens de satélite atrasadas ou com interferência de nuvens. Também reduz a necessidade de patrulhamento manual contínuo, economizando recursos e aumentando a segurança de profissionais no campo.  
 
-**Características e funcionalidades detalhadas:**
-Estações de monitoramento automáticas baseadas em Arduino;
-Comunicação LoRa P2P para transmissão de dados em áreas de difícil acesso;
-Painel de monitoramento central com visualização em tempo real de alertas;
-Alertas automáticos de focos de queimadas via aplicativo ou painel web;
-Registro histórico de eventos para análise posterior;
+**Características e funcionalidades:**  
+- Estações de monitoramento automáticas baseadas em Arduino;  
+- Comunicação **LoRa P2P** para transmissão de dados em áreas de difícil acesso;  
+- Painel de monitoramento central com visualização em tempo real de alertas;  
+- Alertas automáticos via aplicativo ou painel web.
 
-**Tecnologias e ferramentas:**
-Hardware: Arduino, sensores de temperatura e fumaça, módulos LoRa.
+**Tecnologias e ferramentas:**  
+- **Hardware:** Arduino MKR WAN 1310, sensor de temperatura DS18B20, antena amplificadora monopolo;  
+- **Software:** máquinas virtuais (VMware Workstation + Ubuntu), painel web integrado com React.js, backend em Java (SpringBoot + Maven);  
+- **Comunicação:** LoRa P2P, banco de dados PostgreSQL, CloudFlare Tunnel (Zero Trust), OpenVPN, Docker Compose.
 
-Software: Painel web (HTML, CSS, JavaScript), backend em Python ou Node.js.
+**Contexto de uso:**  
+- **Usuários:** equipes de prevenção e combate a incêndios florestais, órgãos ambientais, pesquisadores;  
+- **Tarefas:** monitoramento de áreas florestais, análise de alertas, tomada de decisões rápidas;  
+- **Equipamentos:** sensores e estações LoRa, computadores ou dispositivos móveis para acessar o painel, conexão à internet ou rede LoRa;  
+- **Ambiente:** áreas remotas com vegetação densa, florestas e reservas naturais.
 
-Comunicação: LoRa P2P, banco de dados em nuvem (ex.: MongoDB).
+---
 
-**Contexto de uso:**
-Usuários: equipes de prevenção e combate a incêndios florestais, órgãos ambientais, pesquisadores.
+## Público Alvo
 
-Tarefas: monitoramento de áreas florestais, análise de alertas, tomada de decisões rápidas.
+**Grupo específico:**  
+- INPE (Instituto Nacional de Pesquisas Espaciais).
 
-Equipamentos: sensores e estações LoRa, computadores ou dispositivos móveis para acessar o painel, conexão à internet ou rede LoRa.
+**Características do público-alvo:**  
+- **Demográficas:** profissionais de médio a alto nível educacional em áreas ambientais ou tecnológicas;  
+- **Comportamentais:** uso frequente de tecnologia para monitoramento e gestão de riscos ambientais;  
+- **Psicográficas:** preocupação com preservação ambiental, segurança e eficiência operacional;  
+- **Geográficas:** regiões com risco de queimadas ou áreas de vegetação extensa, principalmente remotas ou de difícil acesso.
 
-Ambiente: áreas remotas com vegetação densa, florestas e reservas naturais.
-
-## Publico Alvo
-
-Grupo específico: INPE (Instituto Nacional de Pesquisas Espaciais).
-
-**Características do público-alvo:**
-Demográficas: profissionais de médio a alto nível educacional em áreas ambientais ou tecnológicas.
-
-Comportamentais: uso frequente de tecnologia para monitoramento e gestão de riscos ambientais.
-
-Psicográficas: preocupação com preservação ambiental, segurança e eficiência operacional.
-
-Geográficas: regiões com risco de queimadas ou áreas de vegetação extensa, principalmente remotas ou de difícil acesso.
+---
 
 ## Análise de concorrência
 
-**Principais concorrentes ou softwares:**
-Sistemas baseados em satélite, como o Queimadas INPE.
+**Principais concorrentes ou softwares:**  
+- Sistemas de monitoramento baseados em satélite;  
+- Sensores IoT comerciais de monitoramento ambiental;  
+- Aplicativos de alerta ambiental, como o FireWatch.
 
-Sensores IoT comerciais de monitoramento ambiental.
+**Características e funcionalidades dos concorrentes:**  
+- Monitoramento remoto via satélite;  
+- Alertas automatizados, mas com menor frequência;  
+- Integração limitada com painéis interativos em tempo real;  
+- Falhas de segurança.
 
-Aplicativos de alerta ambiental (ex.: FireWatch).
+**Experiência do usuário (UX):**  
+- Sistemas de satélite: interface complexa e pouco amigável para usuários não técnicos;  
+- Sensores comerciais: interfaces variáveis, geralmente pouco personalizáveis.
 
-**Informações coletadas:**
-Sistemas de satélite têm alta cobertura, mas apresentam atrasos.
+**Preços e modelos de negócio:**  
+- Satélite/softwares comerciais: assinatura anual ou serviços pagos por uso;  
+- Sensores IoT: custo inicial elevado, manutenção periódica necessária.
 
-Sensores IoT comerciais geralmente têm custo elevado e alcance limitado.
+**Satisfação do cliente e opiniões:**  
+- Usuários valorizam confiabilidade e precisão, mas reclamam de atrasos e custos elevados.
 
-**Características e funcionalidades dos concorrentes:**
-Monitoramento remoto via satélite.
+**Padrões e tendências:**  
+- Crescente interesse em soluções IoT de baixo custo e longa distância de comunicação;  
+- Necessidade de integração com alertas em tempo real e painéis centralizados.
 
-Alertas automatizados, mas com menor frequência.
+**Relatórios e resumo dos resultados:**  
+- Sistemas atuais apresentam limitações de custo, alcance e tempo de resposta;  
+- Existe oportunidade para soluções que combinem baixo custo, P2P e monitoramento rápido.
 
-Integração limitada com painéis interativos em tempo real.
-
-**Experiência do usuário (UX):**
-Sistemas de satélite: interface complexa e pouco amigável para usuários não técnicos.
-
-Sensores comerciais: interfaces variáveis, geralmente pouco personalizáveis.
-
-**Preços e modelos de negócio:**
-Satélite/softwares comerciais: assinatura anual ou serviços pagos por uso.
-
-Sensores IoT: custo inicial elevado, manutenção periódica necessária.
-
-**Satisfação do cliente e opiniões:**
-Usuários valorizam confiabilidade e precisão, mas reclamam de atrasos e custos elevados.
-
-**Padrões e tendências:**
-Crescente interesse em soluções IoT de baixo custo e longa distância de comunicação.
-
-Necessidade de integração com alertas em tempo real e painéis centralizados.
-
-**Relatórios e resumo dos resultados:**
-Sistemas atuais apresentam limitações de custo, alcance e tempo de resposta.
-
-Existe oportunidade para soluções que combinem baixo custo, P2P e monitoramento rápido.
-
-**Pontos positivos e recomendações:**
-
-Concorrentes fornecem dados confiáveis e cobertura ampla (satélite).
-
-Recomenda-se diferenciar o Boitatá-II pela rapidez de detecção, baixo custo e acessibilidade em áreas remotas.
+**Pontos positivos e recomendações:**  
+- Concorrentes fornecem dados confiáveis e cobertura ampla (satélite);  
+- Recomenda-se diferenciar o **Projeto Boitatá-II** pela rapidez de detecção, baixo custo, escalabilidade e acessibilidade em áreas remotas.
 
 ### Personas
 
