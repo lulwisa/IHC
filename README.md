@@ -353,8 +353,8 @@ Habilidades técnicas: Uso básico de tecnologia (apps, redes sociais, mapas onl
   O sistema deve ser utilizado em **áreas remotas com vegetação densa**, florestas, reservas ambientais e regiões de risco de queimadas. Também será usado em **centros de monitoramento** urbanos ou regionais, onde os dados coletados são analisados em tempo real.  
 
 - **Contextos sociais, econômicos e culturais:**  
-  - **Social:** prevenção de desastres ambientais que impactam populações locais e comunidades que dependem da floresta para subsistência;  
-  - **Econômico:** redução de custos em combate a incêndios, minimização de prejuízos econômicos causados pela destruição de áreas agrícolas e florestais;  
+  - **Social:** prevenção e monitoramento de desastres ambientais que impactam populações locais e comunidades que dependem da floresta para subsistência;  
+  - **Econômico:** redução de custos em combate a incêndios, minimização de prejuízos econômicos logísticos e causados pela destruição de áreas agrícolas e florestais;  
   - **Cultural:** preservação de biomas e territórios tradicionais, como áreas indígenas e comunidades ribeirinhas que sofrem diretamente os efeitos das queimadas.  
 
 - **Informações do ambiente que devem ser guardadas antes da interação:**  
@@ -365,7 +365,7 @@ Habilidades técnicas: Uso básico de tecnologia (apps, redes sociais, mapas onl
   - Informações sobre usuários autorizados a receber notificações.  
 
 - **O que normalmente está acontecendo no ambiente durante a interação:**  
-  - Em campo: sensores estão monitorando temperatura, fumaça e umidade, coletando dados continuamente;  
+  - Em campo: sensores estão monitorando a temperatura, coletando dados continuamente;  
   - No centro de controle: usuários analisam dados em tempo real no painel, recebem alertas de novos focos e gerenciam relatórios;  
   - Em situação de alerta: o sistema dispara notificações para bombeiros florestais ou órgãos ambientais, indicando o foco de incêndio.  
 
@@ -380,12 +380,12 @@ A seguir, descrevemos a narrativa típica de interação do usuário com o **Boi
    - O sistema carrega as informações do ambiente monitorado, histórico de dados e estado atual dos sensores.  
 
 2. **Monitoramento contínuo:**  
-   - Em tempo real, o sistema coleta dados dos sensores distribuídos em campo (temperatura, fumaça, umidade).  
+   - Em tempo real, o sistema coleta dados dos sensores distribuídos em campo (temperatura).  
    - O usuário acompanha no painel web mapas, gráficos e índices de risco de fogo.  
    - Caso não haja anomalias, o sistema funciona de forma transparente, mantendo apenas o acompanhamento preventivo.  
 
 3. **Detecção de evento (alerta de foco de incêndio):**  
-   - O sistema identifica um aumento brusco de temperatura ou fumaça.  
+   - O sistema identifica um aumento brusco de temperatura.  
    - Um **alerta automático** é gerado e aparece no painel do usuário, acompanhado de notificação sonora ou push.  
    - O alerta exibe a localização geográfica, horário e intensidade do evento.  
 
@@ -395,7 +395,6 @@ A seguir, descrevemos a narrativa típica de interação do usuário com o **Boi
    - Dependendo da gravidade, a equipe se desloca até o local para verificar ou combater o foco de incêndio.  
 
 5. **Encerramento da tarefa:**  
-   - O usuário registra no sistema as ações tomadas (ex.: “foco controlado”, “equipe em deslocamento”, “alarme falso”).  
    - O alerta é armazenado no **histórico de eventos** para futuras análises.  
    - O sistema retorna ao monitoramento contínuo, aguardando novos eventos.  
 
