@@ -97,6 +97,7 @@ O projeto resolve a detecção tardia de queimadas em áreas remotas, que atualm
 - Concorrentes fornecem dados confiáveis e cobertura ampla (satélite);  
 - Recomenda-se diferenciar o **Projeto Boitatá-II** pela rapidez de detecção, baixo custo, escalabilidade e acessibilidade em áreas remotas. -->
 
+
 ## Análise de concorrência
 
 **Principais concorrentes ou softwares:** 
@@ -166,6 +167,7 @@ Imagem Geosistemas: Forte na rapidez e confiabilidade dos dados, com excelente i
 SELVA – UEA: Diferencial no baixo custo e na abrangência ambiental (incluindo qualidade do ar e descargas elétricas); recomendável ampliar a cobertura e o suporte técnico em áreas remotas.
 Para o Projeto Boitatá-II, recomenda-se focar na combinação dos pontos fortes desses dois concorrentes: detecção rápida e confiável, baixo custo, escalabilidade para áreas remotas e interface amigável para diversos perfis de usuário.
 
+---
 
 #### Personas
 
@@ -202,6 +204,12 @@ O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessid
 ![Mapa de empatia](empatia.png)
 
 #### Persona primária: Analista de Monitoramento Ambiental
+Nome: Mariana Silva
+Idade: 34 anos
+Cargo: Analista de Monitoramento Ambiental
+Local de Trabalho: Centro de Monitoramento Ambiental de uma instituição pública
+Formação: Engenharia Ambiental, com especialização em sensoriamento remoto e geotecnologias
+Habilidades técnicas: Sistemas de informação geográfica (SIG), análise de dados ambientais, relatórios técnicos  
 
 - **O que o usuário vê:**  
   - Painéis web com gráficos, mapas e alertas em tempo real;  
@@ -239,7 +247,13 @@ O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessid
   - Interface intuitiva e de fácil interpretação.
 
 
-#### Persona secundária: Bombeiro Florestal
+#### Persona primária: Bombeiro Florestal
+Nome: João Mendes
+Idade: 41 anos
+Cargo: Bombeiro Florestal
+Local de Atuação: Campo (operações diretas em áreas de risco ambiental)
+Formação: Treinamento técnico em combate a incêndios florestais, experiência em campo
+Habilidades técnicas: Uso de GPS, comunicação via rádio, leitura de mapas e atuação em áreas de risco
 
 - **O que o usuário vê:**  
   - Área de operação com sensores distribuídos;  
@@ -273,9 +287,51 @@ O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessid
   - Informação georreferenciada sobre focos de incêndio;  
   - Sistema confiável mesmo em áreas remotas;  
   - Redução de risco e melhoria na eficiência das operações.
- 
+
+
+#### Persona Secundária: Cidadã Engajada e Moradora de Área de Risco
+Nome: Carla Torres
+Idade: 29 anos
+Ocupação: Professora do Ensino Fundamental
+Localização: Moradora da zona rural de um município que sofre com queimadas sazonais
+Formação: Licenciatura em Pedagogia
+Habilidades técnicas: Uso básico de tecnologia (apps, redes sociais, mapas online)
+
+- **O que vê:**
+  - Aplicativo ou site com alertas de risco ambiental próximos
+  - Mapa com focos de incêndio próximos ou históricos na região
+  - Notificações simples no celular sobre qualidade do ar e situação atual
+  - Dicas de prevenção e segurança
+
+  - **O que ouve:**
+   - Alertas do app quando há risco nas proximidades
+   - Notícias locais sobre queimadas e clima seco
+   - Conversas de vizinhos e da comunidade sobre o risco de incêndios
+
+- **O que diz e faz:**
+  - Verifica o app com frequência durante a estação seca
+  - Compartilha informações com vizinhos e familiares
+  - Entra em contato com autoridades locais se notar algo suspeito
+  - Usa as informações para se preparar ou evitar áreas de risco
+
+- **O que pensa e sente:**
+  - Preocupada com a segurança da família, principalmente durante épocas críticas
+  - Deseja informações confiáveis, acessíveis e em linguagem clara
+  - Quer se sentir parte da solução, mesmo sem estar diretamente envolvida no combate
+  - Busca tranquilidade ao saber que está bem informada
+
+- **Dores:**
+  - Falta de acesso a informações de qualidade em tempo real
+  - Termos técnicos e mapas complicados de entender
+  - Notificações genéricas ou alarmistas que não ajudam na prática
+  - Falta de confiança em fontes não oficiais
+
+- **Ganhos:**
+  - Receber alertas localizados e compreensíveis diretamente no celular
+  - Entender com facilidade se está em área de risco ou não
+  - Poder tomar decisões conscientes e rápidas (como evacuar, proteger bens, avisar vizinhos)
   
-## Contexto de uso
+<!-- ## Contexto de uso
 
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
 - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
@@ -287,7 +343,64 @@ O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessid
 - Criar uma narrativa para o o seu serviço ou poduto com o usuário.
 - Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
   - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina? -->
+
+---
+
+## Contexto de uso
+
+- **Ambiente de utilização:**  
+  O sistema deve ser utilizado em **áreas remotas com vegetação densa**, florestas, reservas ambientais e regiões de risco de queimadas. Também será usado em **centros de monitoramento** urbanos ou regionais, onde os dados coletados são analisados em tempo real.  
+
+- **Contextos sociais, econômicos e culturais:**  
+  - **Social:** prevenção de desastres ambientais que impactam populações locais e comunidades que dependem da floresta para subsistência;  
+  - **Econômico:** redução de custos em combate a incêndios, minimização de prejuízos econômicos causados pela destruição de áreas agrícolas e florestais;  
+  - **Cultural:** preservação de biomas e territórios tradicionais, como áreas indígenas e comunidades ribeirinhas que sofrem diretamente os efeitos das queimadas.  
+
+- **Informações do ambiente que devem ser guardadas antes da interação:**  
+  - Localização geográfica e delimitação da área monitorada;  
+  - Histórico de queimadas ou focos anteriores;  
+  - Índices climáticos e de risco de fogo;  
+  - Estado atual dos sensores e estações (ativos/inativos);  
+  - Informações sobre usuários autorizados a receber notificações.  
+
+- **O que normalmente está acontecendo no ambiente durante a interação:**  
+  - Em campo: sensores estão monitorando temperatura, fumaça e umidade, coletando dados continuamente;  
+  - No centro de controle: usuários analisam dados em tempo real no painel, recebem alertas de novos focos e gerenciam relatórios;  
+  - Em situação de alerta: o sistema dispara notificações para bombeiros florestais ou órgãos ambientais, indicando o foco de incêndio.  
+
+---
+
+## Jornada do usuário
+
+A seguir, descrevemos a narrativa típica de interação do usuário com o **Boitatá-II**.  
+
+1. **Início da interação:**  
+   - O usuário (analista ou bombeiro florestal) acessa o **painel de monitoramento** via computador ou dispositivo móvel.  
+   - O sistema carrega as informações do ambiente monitorado, histórico de dados e estado atual dos sensores.  
+
+2. **Monitoramento contínuo:**  
+   - Em tempo real, o sistema coleta dados dos sensores distribuídos em campo (temperatura, fumaça, umidade).  
+   - O usuário acompanha no painel web mapas, gráficos e índices de risco de fogo.  
+   - Caso não haja anomalias, o sistema funciona de forma transparente, mantendo apenas o acompanhamento preventivo.  
+
+3. **Detecção de evento (alerta de foco de incêndio):**  
+   - O sistema identifica um aumento brusco de temperatura ou fumaça.  
+   - Um **alerta automático** é gerado e aparece no painel do usuário, acompanhado de notificação sonora ou push.  
+   - O alerta exibe a localização geográfica, horário e intensidade do evento.  
+
+4. **Ação do usuário:**  
+   - O analista confirma a informação e encaminha o alerta para a equipe de campo (bombeiros florestais).  
+   - Bombeiros em campo recebem a notificação no dispositivo móvel.  
+   - Dependendo da gravidade, a equipe se desloca até o local para verificar ou combater o foco de incêndio.  
+
+5. **Encerramento da tarefa:**  
+   - O usuário registra no sistema as ações tomadas (ex.: “foco controlado”, “equipe em deslocamento”, “alarme falso”).  
+   - O alerta é armazenado no **histórico de eventos** para futuras análises.  
+   - O sistema retorna ao monitoramento contínuo, aguardando novos eventos.  
+
+---
+
 
 
 <!--
