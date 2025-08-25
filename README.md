@@ -284,10 +284,10 @@ Habilidades técnicas: Uso básico de tecnologia (apps, redes sociais, mapas onl
   - Notificações simples no celular sobre qualidade do ar e situação atual
   - Dicas de prevenção e segurança
 
-  - **O que ouve:**
-   - Alertas do app quando há risco nas proximidades
-   - Notícias locais sobre queimadas e clima seco
-   - Conversas de vizinhos e da comunidade sobre o risco de incêndios
+- **O que ouve:**
+  - Alertas do app quando há risco nas proximidades
+  - Notícias locais sobre queimadas e clima seco
+  - Conversas de vizinhos e da comunidade sobre o risco de incêndios
 
 - **O que diz e faz:**
   - Verifica o app com frequência durante a estação seca
