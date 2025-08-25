@@ -61,43 +61,6 @@ O projeto resolve a detecção tardia de queimadas em áreas remotas, que atualm
 
 ---
 
-<!-- ## Análise de concorrência
-
-**Principais concorrentes ou softwares:**  
-- Sistemas de monitoramento baseados em satélite;  
-- Sensores IoT comerciais de monitoramento ambiental;  
-- Aplicativos de alerta ambiental, como o FireWatch.
-
-**Características e funcionalidades dos concorrentes:**  
-- Monitoramento remoto via satélite;  
-- Alertas automatizados, mas com menor frequência;  
-- Integração limitada com painéis interativos em tempo real;  
-- Falhas de segurança.
-
-**Experiência do usuário (UX):**  
-- Sistemas de satélite: interface complexa e pouco amigável para usuários não técnicos;  
-- Sensores comerciais: interfaces variáveis, geralmente pouco personalizáveis.
-
-**Preços e modelos de negócio:**  
-- Satélite/softwares comerciais: assinatura anual ou serviços pagos por uso;  
-- Sensores IoT: custo inicial elevado, manutenção periódica necessária.
-
-**Satisfação do cliente e opiniões:**  
-- Usuários valorizam confiabilidade e precisão, mas reclamam de atrasos e custos elevados.
-
-**Padrões e tendências:**  
-- Crescente interesse em soluções IoT de baixo custo e longa distância de comunicação;  
-- Necessidade de integração com alertas em tempo real e painéis centralizados.
-
-**Relatórios e resumo dos resultados:**  
-- Sistemas atuais apresentam limitações de custo, alcance e tempo de resposta;  
-- Existe oportunidade para soluções que combinem baixo custo, P2P e monitoramento rápido.
-
-**Pontos positivos e recomendações:**  
-- Concorrentes fornecem dados confiáveis e cobertura ampla (satélite);  
-- Recomenda-se diferenciar o **Projeto Boitatá-II** pela rapidez de detecção, baixo custo, escalabilidade e acessibilidade em áreas remotas. -->
-
-
 ## Análise de concorrência
 
 **Principais concorrentes ou softwares:** 
@@ -135,10 +98,10 @@ Interface acessível e clara, com filtros personalizáveis que atendem diferente
 **Preços e modelos de negócio:** 
 
 Imagem Geosistemas — Painel de SP:
-Provavelmente opera com contratos governamentais, modelo de licenciamento ou prestação de serviço, sem informações públicas claras sobre preços.
+Provavelmente opera com contratos governamentais, modelo de licenciamento ou prestação de serviço, sem informações públicas claras sobre preços. Usuários restritos apenas a funcionários do corpo de bombeiros.
 
 SELVA – UEA:
-Solução de baixo custo, desenvolvida por universidade pública, provavelmente disponibilizada com acesso gratuito ou a preços muito acessíveis.
+Solução de baixo custo, desenvolvida por universidade pública, disponibilizada com acesso gratuito na loja de aplicativos de smartphones.
 
 **Satisfação do cliente e opiniões:**
 
@@ -156,20 +119,21 @@ Demanda por soluções de baixo custo que possam ser escaláveis para grandes re
 
 **Relatórios e resumo dos resultados:** 
 
-Imagem Geosistemas — Painel de SP: Sistema robusto, confiável e rápido, porém dependente de dados satelitais com atualizações a cada 15 minutos, o que pode limitar a imediaticidade em alguns casos.
+Imagem Geosistemas — Painel de SP: Sistema robusto, confiável e rápido, porém dependente de dados satelitais com atualizações a cada 15 minutos, o que pode limitar a imediaticidade em alguns casos, e restrito apenas a funcionários do corpo de bombeiros.
 
 SELVA – UEA: Aplicativo inovador, com integração multi-sensorial e custo reduzido, porém com desafios em cobertura e suporte em regiões mais afastadas.
 
 **Pontos positivos e recomendações:**
 
-Imagem Geosistemas: Forte na rapidez e confiabilidade dos dados, com excelente interface para resposta emergencial; recomendável explorar atualização ainda mais frequente.
+Imagem Geosistemas: Forte na rapidez e confiabilidade dos dados, com excelente interface para resposta emergencial; recomendável explorar atualização ainda mais frequente; acessível a todo o público.
 
 SELVA – UEA: Diferencial no baixo custo e na abrangência ambiental (incluindo qualidade do ar e descargas elétricas); recomendável ampliar a cobertura e o suporte técnico em áreas remotas.
-Para o Projeto Boitatá-II, recomenda-se focar na combinação dos pontos fortes desses dois concorrentes: detecção rápida e confiável, baixo custo, escalabilidade para áreas remotas e interface amigável para diversos perfis de usuário.
+
+Para o Projeto Boitatá-II, recomenda-se focar na combinação dos pontos fortes desses dois concorrentes: detecção rápida e confiável, baixo custo, escalabilidade para áreas remotas, interface amigável para diversos perfis de usuário e acesso livre.
 
 ---
 
-#### Personas
+## Personas
 
 O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessidades específicas em relação ao monitoramento de queimadas.  
 
@@ -197,7 +161,8 @@ O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessid
 
 - Pesquisadores ambientais interessados em dados históricos de queimadas;  
 - Gestores de unidades de conservação que precisam planejar estratégias de prevenção;  
-- ONGs ambientais que monitoram impactos ecológicos em tempo real.  
+- ONGs ambientais que monitoram impactos ecológicos em tempo real;
+- Moradores de áreas de risco de queimadas.
 
 ### Mapa de empatia
 
@@ -205,10 +170,15 @@ O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessid
 
 #### Persona primária: Analista de Monitoramento Ambiental
 Nome: Mariana Silva
+
 Idade: 34 anos
+
 Cargo: Analista de Monitoramento Ambiental
+
 Local de Trabalho: Centro de Monitoramento Ambiental de uma instituição pública
+
 Formação: Engenharia Ambiental, com especialização em sensoriamento remoto e geotecnologias
+
 Habilidades técnicas: Sistemas de informação geográfica (SIG), análise de dados ambientais, relatórios técnicos  
 
 - **O que o usuário vê:**  
@@ -249,11 +219,17 @@ Habilidades técnicas: Sistemas de informação geográfica (SIG), análise de d
 
 #### Persona primária: Bombeiro Florestal
 Nome: João Mendes
+
 Idade: 41 anos
+
 Cargo: Bombeiro Florestal
+
 Local de Atuação: Campo (operações diretas em áreas de risco ambiental)
+
 Formação: Treinamento técnico em combate a incêndios florestais, experiência em campo
+
 Habilidades técnicas: Uso de GPS, comunicação via rádio, leitura de mapas e atuação em áreas de risco
+
 
 - **O que o usuário vê:**  
   - Área de operação com sensores distribuídos;  
@@ -291,10 +267,15 @@ Habilidades técnicas: Uso de GPS, comunicação via rádio, leitura de mapas e 
 
 #### Persona Secundária: Cidadã Engajada e Moradora de Área de Risco
 Nome: Carla Torres
+
 Idade: 29 anos
+
 Ocupação: Professora do Ensino Fundamental
+
 Localização: Moradora da zona rural de um município que sofre com queimadas sazonais
+
 Formação: Licenciatura em Pedagogia
+
 Habilidades técnicas: Uso básico de tecnologia (apps, redes sociais, mapas online)
 
 - **O que vê:**
@@ -331,20 +312,6 @@ Habilidades técnicas: Uso básico de tecnologia (apps, redes sociais, mapas onl
   - Entender com facilidade se está em área de risco ou não
   - Poder tomar decisões conscientes e rápidas (como evacuar, proteger bens, avisar vizinhos)
   
-<!-- ## Contexto de uso
-
-- Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
-- O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
-
-## Jornada do usuário
-
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
-- Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina? -->
-
 ---
 
 ## Contexto de uso
@@ -401,16 +368,6 @@ A seguir, descrevemos a narrativa típica de interação do usuário com o **Boi
 ---
 
 
-
-<!--
-## Análise de concorrência
-
-- Pesquise serviços ou podutos existentes atualmente que possam realizar o objetivo deste projeto.
-- Selecione pelo menos 3 serviços ou podutos diferentes.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
- -->
  
 ## Coleta de dados
 
