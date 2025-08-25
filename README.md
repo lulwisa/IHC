@@ -137,28 +137,19 @@ Para o Projeto Boitatá-II, recomenda-se focar na combinação dos pontos fortes
 
 O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessidades específicas em relação ao monitoramento de queimadas.  
 
+### Introdução
+
 **Persona primária: Analista de Monitoramento Ambiental**
 
 - **Contexto social/econômico/cultural:**  
   Profissional com formação em áreas ambientais ou tecnológicas, trabalha em órgãos governamentais ou institutos de pesquisa, geralmente com experiência prévia em monitoramento ambiental e uso de tecnologias de informação. Recebe pressão por relatórios precisos e rápidos sobre focos de incêndio.  
-- **Informações que o serviço deve guardar:**  
-  - Histórico de alertas de queimadas por região;  
-  - Dados de sensores em tempo real;  
-  - Logs de intervenções e ações tomadas;  
-  - Perfis de usuários e permissões de acesso.  
 
 **Persona secundária: Bombeiro Florestal**
 
 - **Contexto social/econômico/cultural:**  
-  Profissional de campo, atuando diretamente na prevenção e combate a incêndios florestais. Experiência prática, mas nem sempre alta familiaridade com tecnologias avançadas. Valoriza informações rápidas e confiáveis para tomada de decisões em situações críticas.  
-- **Informações que o serviço deve guardar:**  
-  - Alertas de foco de incêndio em tempo real;  
-  - Localização e status de equipamentos de combate;  
-  - Histórico de ocorrências e ações realizadas;  
-  - Notificações personalizadas conforme região de atuação.  
+  Profissional de campo, atuando diretamente na prevenção e combate a incêndios florestais. Experiência prática, mas nem sempre alta familiaridade com tecnologias avançadas. Valoriza informações rápidas e confiáveis para tomada de decisões em situações críticas.   
 
 **Outras personas**
-
 - Pesquisadores ambientais interessados em dados históricos de queimadas;  
 - Gestores de unidades de conservação que precisam planejar estratégias de prevenção;  
 - ONGs ambientais que monitoram impactos ecológicos em tempo real;
@@ -370,6 +361,19 @@ A seguir, descrevemos a narrativa típica de interação do usuário com o **Boi
 
  
 ## Coleta de dados
+
+<!-- - **Informações que o serviço deve guardar:**  
+  - Histórico de alertas de queimadas por região;  
+  - Dados de sensores em tempo real;  
+  - Logs de intervenções e ações tomadas;  
+  - Perfis de usuários e permissões de acesso.  
+
+- **Informações que o serviço deve guardar:**  
+  - Alertas de foco de incêndio em tempo real;  
+  - Localização e status de equipamentos de combate;  
+  - Histórico de ocorrências e ações realizadas;  
+  - Notificações personalizadas conforme região de atuação. -->
+
 
 ## Modelo de tarefas
 
