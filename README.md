@@ -127,7 +127,7 @@ SELVA – UEA: Aplicativo inovador, com integração multi-sensorial e custo red
 
 Imagem Geosistemas: Forte na rapidez e confiabilidade dos dados, com excelente interface para resposta emergencial; recomendável explorar atualização ainda mais frequente; acessível a todo o público.
 
-SELVA – UEA: Diferencial no baixo custo e na abrangência ambiental (incluindo qualidade do ar e descargas elétricas); recomendável ampliar a cobertura (foco somente no estado do Amazonas) e o suporte técnico em áreas remotas maiores; incluir avisos para possíveis riscos de queimada..
+SELVA – UEA: Diferencial no baixo custo e na abrangência ambiental (incluindo qualidade do ar e descargas elétricas); recomendável ampliar a cobertura (foco somente no estado do Amazonas) e o suporte técnico em áreas remotas maiores; incluir avisos para possíveis riscos de queimada.
 
 Para o Projeto Boitatá-II, recomenda-se focar na combinação dos pontos fortes desses dois concorrentes: detecção rápida e confiável, baixo custo, escalabilidade para áreas remotas, interface amigável para diversos perfis de usuário e acesso livre.
 
