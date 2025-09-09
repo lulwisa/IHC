@@ -62,7 +62,7 @@ O Projeto Boitatá-II possui diferentes tipos de usuários, cada um com necessid
 
 ### Mapa de empatia
 
-![Mapa de empatia](empatia.png)
+![Mapa de empatia](imagens/empatia.png)
 
 #### Persona primária: Analista de Monitoramento Ambiental
 Nome: Mariana Silva
