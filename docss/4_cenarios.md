@@ -21,7 +21,7 @@ Mariana decide continuar o processo de validação com base nos dados disponíve
 
 No final do dia, após o restabelecimento do servidor, os dados meteorológicos são sincronizados automaticamente e Mariana valida que o alerta era real. Ela **conclui o cadastro do evento** [9], envia um e-mail para **os agentes envolvidos (campo, supervisores e analistas)** [14], e solicita confirmação das informações **por meio de um link interno do sistema** [11]. Após a confirmação, **o evento é fechado com sucesso e arquivado para o histórico de análise de risco** [12].
 
-Referência direta às perguntas respondidas:
+**Referência direta às perguntas respondidas:**
 1. Quem acessa o sistema para cadastrar e analisar ocorrências ambientais?
 2. Em que momento Mariana acessa o sistema para iniciar suas atividades?
 3. De onde vêm os dados de alertas de queimadas?
@@ -50,7 +50,7 @@ Em determinado momento, João tenta acessar dados históricos da área para aval
 Após cerca de duas horas de operação, o fogo é controlado com sucesso. **João envia uma última mensagem para a central** confirmando a extinção do foco [9], e **o sistema atualiza automaticamente o histórico do evento** para futuras análises [14]. Ele sente confiança no sistema que forneceu informações rápidas e precisas, permitindo uma atuação eficiente.
 
 
-Referência direta às perguntas respondidas:
+**Referência direta às perguntas respondidas:**
 1. Quem recebe os alertas de incêndio pelo sistema de monitoramento?
 2. Em que momento João recebeu o alerta do incêndio?
 3. Que tipo de informação acompanha o alerta de incêndio?
