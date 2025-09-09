@@ -74,6 +74,11 @@ Imagem Geosistemas — Painel de SP: Sistema robusto, confiável e rápido, por�
 
 SELVA – UEA: Aplicativo inovador, com integração multi-sensorial e custo reduzido, porém com desafios em cobertura e suporte em regiões mais afastadas.
 
+![Imagem do WhatsApp de 2025-09-09 à(s) 18 32 58_83b585fd](https://github.com/user-attachments/assets/9cebe32b-e2ab-4d8a-841e-0cc59b5a6a02)
+
+![Imagem do WhatsApp de 2025-09-09 à(s) 18 32 38_9241ed15](https://github.com/user-attachments/assets/ad01a8ed-aa52-41e0-b829-dfa2787c775d)
+
+
 **Pontos positivos e recomendações:**
 
 Imagem Geosistemas: Forte na rapidez e confiabilidade dos dados, com excelente interface para resposta emergencial; recomendável explorar atualização ainda mais frequente; acessível a todo o público.
