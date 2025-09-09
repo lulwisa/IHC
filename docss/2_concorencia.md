@@ -24,6 +24,11 @@ SELVA – UEA (Brasil):
 
 Aplicativo brasileiro de baixo custo criado pela Universidade do Estado do Amazonas. Monitora queimadas em tempo real na Amazônia, além de qualidade do ar, chuvas e descargas elétricas. Usa dados de satélite e sensores terrestres, com visualização clara e filtros por satélite.
 
+![Imagem do WhatsApp de 2025-09-09 à(s) 18 32 58_83b585fd](https://github.com/user-attachments/assets/9cebe32b-e2ab-4d8a-841e-0cc59b5a6a02)
+
+![Imagem do WhatsApp de 2025-09-09 à(s) 18 32 38_9241ed15](https://github.com/user-attachments/assets/ad01a8ed-aa52-41e0-b829-dfa2787c775d)
+
+
 **Características e funcionalidades dos concorrentes:**
 
 Imagem Geosistemas — Painel de SP:
@@ -73,11 +78,6 @@ Demanda por soluções de baixo custo que possam ser escaláveis para grandes re
 Imagem Geosistemas — Painel de SP: Sistema robusto, confiável e rápido, porém dependente de dados satelitais com atualizações a cada 15 minutos, o que pode limitar a imediaticidade em alguns casos, e restrito apenas a funcionários do corpo de bombeiros.
 
 SELVA – UEA: Aplicativo inovador, com integração multi-sensorial e custo reduzido, porém com desafios em cobertura e suporte em regiões mais afastadas.
-
-![Imagem do WhatsApp de 2025-09-09 à(s) 18 32 58_83b585fd](https://github.com/user-attachments/assets/9cebe32b-e2ab-4d8a-841e-0cc59b5a6a02)
-
-![Imagem do WhatsApp de 2025-09-09 à(s) 18 32 38_9241ed15](https://github.com/user-attachments/assets/ad01a8ed-aa52-41e0-b829-dfa2787c775d)
-
 
 **Pontos positivos e recomendações:**
 
