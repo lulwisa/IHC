@@ -76,6 +76,7 @@ Local de Trabalho: Centro de Monitoramento Ambiental de uma instituição públi
 Formação: Engenharia Ambiental, com especialização em sensoriamento remoto e geotecnologias
 
 Habilidades técnicas: Sistemas de informação geográfica (SIG), análise de dados ambientais, relatórios técnicos  
+
 <img width="100" height="300" alt="image" src="https://github.com/user-attachments/assets/6cb8ca45-50bf-4332-b04f-c2ca49145d2d" />
 
 
@@ -127,6 +128,7 @@ Local de Atuação: Campo (operações diretas em áreas de risco ambiental)
 Formação: Treinamento técnico em combate a incêndios florestais, experiência em campo
 
 Habilidades técnicas: Uso de GPS, comunicação via rádio, leitura de mapas e atuação em áreas de risco
+
 <img width="100" height="300" alt="image" src="https://github.com/user-attachments/assets/41d73655-695e-4150-b018-16b4cb170d0b" />
 
 
