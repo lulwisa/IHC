@@ -179,6 +179,8 @@ Formação: Licenciatura em Pedagogia
 
 Habilidades técnicas: Uso básico de tecnologia (apps, redes sociais, mapas online)
 
+<img width="100" height="300" alt="image" src="https://github.com/user-attachments/assets/ff3b267e-a55c-4a46-a455-c621396d6b2d" />
+
 - **O que vê:**
   - Aplicativo ou site com alertas de risco ambiental próximos
   - Mapa com focos de incêndio próximos ou históricos na região
