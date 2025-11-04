@@ -1,7 +1,7 @@
 # Análise de Tarefas
-
+<!--
 > **_NOTE:_**: A equipe deve descrever as funcionalidades mais importantes da interface/produto. A equipe deve modelar pelo menos 1 HTA, 1 GOMS e 1 CTT (de pelo menos 4 funcionalidades diferentes). Cada diagrama deve ter um texto explicando a funcionalidade.
-
+-->
 1. HTA
 2. GOMS
 3. CTT
@@ -22,7 +22,7 @@ O sistema possui as seguintes funcionalidades principais:
 **Objetivo:** Monitorar focos de incêndio e notificar equipes.  
 
 **Tarefas hierárquicas:**
-
+<!--
 - 1. Monitorar área de risco  
   - 1.1. Inicializar painel web  
     - 1.1.1. Login no sistema  
@@ -38,15 +38,49 @@ O sistema possui as seguintes funcionalidades principais:
   - 3.1. Atualizar status do evento  
   - 3.2. Salvar no histórico  
   - 3.3. Gerar relatório final  
+-->
 
-**Explicação:**  
+1. Acessar sistema (pré-requisito para todas as tarefas)
+   - 1.1. Fazer login no sistema
+   - 1.2. Carregar dashboard principal
+
+2. Monitorar área de risco (tarefa contínua)
+   - 2.1. Visualizar mapa de sensores
+   - 2.2. Monitorar painel de alertas
+   - 2.3. Verificar leituras individuais de sensores
+       - 2.3.1. Verificar temperatura
+       - 2.3.2. Verificar riscos
+       - 2.3.3. Verificar umidade
+
+3. Responder a alerta de foco de incêndio (quando foco é detectado)
+   - 3.1. Receber notificação visual/sonora
+   - 3.2. Analisar dados do alerta
+       - 3.2.1. Verificar valores dos sensores
+       - 3.2.2. Confirmar localização no mapa
+       - 3.2.3. Avaliar nível de severidade
+   - 3.3. Decidir ação
+       - 3.3.1. Se alerta válido: encaminhar para equipe
+       - 3.3.2. Se falso alarme: descartar e registrar
+
+4. Registrar e documentar
+   - 4.1. Atualizar status do evento
+       - 4.1.1. Marcar status (em análise/atendimento/resolvido)
+       - 4.1.2. Inserir observações
+   - 4.2. Salvar no histórico
+   - 4.3. Gerar relatório
+       - 4.3.1. Exportar arquivo
+
+<!-- **Explicação:**  
 O HTA mostra a sequência hierárquica de tarefas, desde o monitoramento em tempo real até a tomada de decisão e registro do evento, detalhando sub-tarefas que os usuários realizam no painel e em campo.  
+
+---
+-->
 
 ---
 
 ## 2. GOMS (Goals, Operators, Methods, Selection rules)
 
-**Funcionalidade:** Notificação de focos de queimadas para equipes de campo  
+<!-- **Funcionalidade:** Notificação de focos de queimadas para equipes de campo  
 
 - **Goal (Objetivo):** Notificar rapidamente a equipe sobre um foco de incêndio detectado.  
 - **Operators (Operadores):**  
@@ -67,6 +101,117 @@ O GOMS detalha como o usuário interage com o painel para notificar focos de que
 
 ---
 
+-->
+
+## Análise GOMS - Sistema de Monitoramento de Incêndios
+
+GOAL 0: Monitorar focos de incêndio e notificar equipes
+
+- GOAL 1: Acessar o sistema de monitoramento
+  - METHOD 1.1: Login no sistema
+
+    - OP 1.1.1: Localizar campo de usuário
+    - OP 1.1.2: Digitar nome de usuário
+    - OP 1.1.3: Localizar campo de senha
+    - OP 1.1.4: Digitar senha
+    - OP 1.1.5: Clicar no botão "Entrar"
+    - OP 1.1.6: Aguardar carregamento da dashboard
+    - OP 1.1.7: Verificar se dashboard foi carregada corretamente
+
+
+- GOAL 2: Monitorar área de risco continuamente  
+  - METHOD 2.1: Visualizar mapa de sensores
+
+    - OP 2.1.1: Localizar área do mapa no dashboard
+    - OP 2.1.2: Observar indicadores visuais dos sensores
+    - OP 2.1.3: Identificar cores e ícones de status (temperatura normal, elevada, crítica)
+
+  - METHOD 2.2: Monitorar painel de alertas
+
+    - OP 2.2.1: Localizar painel de notificações
+    - OP 2.2.2: Verificar presença de novos alertas
+    - OP 2.2.3: Ler mensagens de alerta
+
+  - METHOD 2.3: Verificar leituras de sensores individuais
+
+    - OP 2.3.1: Selecionar sensor no mapa
+    - OP 2.3.2: Ler valor de temperatura exibido
+    - OP 2.3.3: Ler valor de umidade
+    - OP 2.3.4: Comparar valores com limites normais
+    - OP 2.3.5: Fechar janela de detalhes do sensor
+
+  - SELECTION RULE 2.A:
+
+    - SE precisa verificar sensor específico, ENTÃO usar METHOD 2.3
+    - SE está em monitoramento geral, ENTÃO alternar entre METHOD 2.1 e 2.2
+
+
+- GOAL 3: Responder a alerta de foco de incêndio
+  - METHOD 3.1: Identificar e analisar alerta
+
+    - OP 3.1.1: Perceber notificação visual
+    - OP 3.1.2: Clicar no alerta para abrir detalhes
+    - OP 3.1.3: Ler informações do sensor acionado
+    - OP 3.1.4: Localizar ponto no mapa
+    - OP 3.1.5: Verificar timestamp do alerta
+    - OP 3.1.6: Ler nível de severidade (baixo, médio, alto)
+
+  - METHOD 3.2: Validar alerta
+
+    - OP 3.2.1: Comparar dados atuais com histórico
+    - OP 3.2.2: Verificar demais sensores 
+    - OP 3.2.3: Avaliar padrão de leituras
+    - OP 3.2.4: Tomar decisão (válido ou falso positivo)
+
+  - METHOD 3.3a: Encaminhar alerta válido
+
+    - OP 3.3a.1: Clicar em botão "Encaminhar"
+    - OP 3.3a.2: Selecionar email da equipe de campo
+    - OP 3.3a.3: Confirmar envio
+    - OP 3.3a.4: Verificar confirmação de notificação enviada
+
+  - METHOD 3.3b: Descartar falso alarme
+
+    - OP 3.3b.1: Clicar em botão "Descartar alerta"
+    - OP 3.3b.2: Confirmar descarte
+
+  - SELECTION RULE 3.A:
+
+    - SE alerta validado como real (dados consistentes + severidade confirmada), ENTÃO usar METHOD 3.3a
+    - SE alerta identificado como falso positivo, ENTÃO usar METHOD 3.3b
+
+
+- GOAL 4: Registrar e documentar eventos
+  - METHOD 4.1: Atualizar status do evento
+
+    - OP 4.1.1: Localizar evento na dashboard
+    - OP 4.1.2: Clicar no evento para abrir detalhes
+    - OP 4.1.3: Clicar em campo "Status"
+    - OP 4.1.4: Selecionar novo status (Em análise/Em andamento/Resolvido)
+    - OP 4.1.5: Clicar em "Salvar"
+    - OP 4.1.6: Verificar atualização confirmada
+
+  - METHOD 4.2: Gerar relatório
+
+    - OP 4.2.1: Navegar até seção "Relatórios"
+    - OP 4.2.2: Clicar em "Novo Relatório"
+    - OP 4.2.3: Selecionar data inicial
+    - OP 4.2.4: Selecionar data final
+    - OP 4.2.5: Selecionar formato de exportação (PDF/Excel)
+    - OP 4.2.6: Clicar em "Gerar"
+    - OP 4.2.7: Aguardar processamento
+    - OP 4.2.8: Baixar arquivo gerado
+
+  - SELECTION RULE 4.A:
+    
+    - SE evento ainda em andamento, ENTÃO usar METHOD 4.1
+    - SE precisa documentação final/análise histórica, ENTÃO usar METHOD 4.2
+
+---
+
 ## 3. CTT (ConcurTaskTrees)
 
 **Funcionalidade:** Visualização de alertas e monitoramento de sensores  
+
+(Ana)
+
