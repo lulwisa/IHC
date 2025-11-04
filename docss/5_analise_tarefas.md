@@ -40,7 +40,13 @@ O sistema possui as seguintes funcionalidades principais:
   - 3.3. Gerar relatório final  
 -->
 
-|Objetivos e Operações | Problemas e Recomendações|
+| Objetivos e Operações | Problemas e Recomendações |
+| :---- | :---- |
+|  |  |
+||  |
+|  |  |
+|  |   |
+|  |  |
 
 1. Acessar sistema (pré-requisito para todas as tarefas)
    - 1.1. Fazer login no sistema
