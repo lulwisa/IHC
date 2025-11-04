@@ -28,7 +28,13 @@
 
    1. **Qualitativo**
 
-    
+| Metas | Justificativa |
+| ----- | :---- |
+| Facilidade de uso com a interface | É esperado que a interface do sistema seja intuitiva e responsiva  |
+| Atualização dos dados | É esperado que os dados de temperatura sejam atualizados em tempo real no painel, tanto nos gráficos quanto no mapa de geolocalização. |
+| Confiabilidade nas informações dos sensores | É esperado que os sensores enviem informações de temperatura dentro de valores possíveis/esperados (ex: é esperado valores em torno de 40 a 50 graus; não são esperados valores abaixo de 20 graus negativos).  |
+| Permitir que o usuário mude o status de alertas de incêncio | É esperado que o usuário consiga alterar os status dos alertas de incêndio com praticidade e rapidez para melhor fluxo de monitoramento. |
+| Disponibilidade dos dados | É esperado que os dados gráficos, geográficos, referentes ao sensores, e notificações e alertas, estejam disponíveis a qualquer momento conforme solicitado pelo usuário. |
 
 
    2. **Quantitativo**  
