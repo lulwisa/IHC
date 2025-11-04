@@ -1,4 +1,4 @@
-# Personas
+<!-- # Personas
 
 - Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
 - Determine qual o grupo específico de pessoas ou organizações para as quais este produto ou serviço é direcionado.
@@ -8,7 +8,7 @@
 
 
 > **_NOTE:_**: Cada persona deve ter uma foto de rosto que a represente. Vocês podem utilizar esse [site](https://thispersondoesnotexist.com/) para gerar as fotos.
-
+-->
 # Mapa de empatia
 
 ![Mapa de empatia](imagens/empatia.png)
