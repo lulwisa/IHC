@@ -109,9 +109,10 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
 
 - GOAL 1: Acessar o sistema de monitoramento
   - METHOD 1.1: Login no sistema
+  - SEL.RULE: os campos obrigatórios devem ser preenchidos (email e senha)
 
     - OP 1.1.1: Localizar campo de usuário
-    - OP 1.1.2: Digitar nome de usuário
+    - OP 1.1.2: Digitar email do usuário
     - OP 1.1.3: Localizar campo de senha
     - OP 1.1.4: Digitar senha
     - OP 1.1.5: Clicar no botão "Entrar"
@@ -121,33 +122,31 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
 
 - GOAL 2: Monitorar área de risco continuamente  
   - METHOD 2.1: Visualizar mapa de sensores
+  - SEL.RULE: Se a temperatura do sensor estiver elevada (indicando risco de fogo), o sensor deve se destacar visualmente com a cor vermelha.
 
     - OP 2.1.1: Localizar área do mapa no dashboard
     - OP 2.1.2: Observar indicadores visuais dos sensores
     - OP 2.1.3: Identificar cores e ícones de status (temperatura normal, elevada, crítica)
 
   - METHOD 2.2: Monitorar painel de alertas
+  - SEL.RULE: O painel de notificações deve ser visível em uma seção fixa da tela durante o monitoramento.
 
     - OP 2.2.1: Localizar painel de notificações
     - OP 2.2.2: Verificar presença de novos alertas
     - OP 2.2.3: Ler mensagens de alerta
 
   - METHOD 2.3: Verificar leituras de sensores individuais
-
+  - SEL.RULE: Se o usuário selecionar um sensor, ele deve visualizar informações detalhadas sobre o sensor selecionado, com dados atualizados em tempo real (como temperatura e umidade).
+    
     - OP 2.3.1: Selecionar sensor no mapa
     - OP 2.3.2: Ler valor de temperatura exibido
     - OP 2.3.3: Ler valor de umidade
     - OP 2.3.4: Comparar valores com limites normais
     - OP 2.3.5: Fechar janela de detalhes do sensor
 
-  - SELECTION RULE 2.A:
-
-    - SE precisa verificar sensor específico, ENTÃO usar METHOD 2.3
-    - SE está em monitoramento geral, ENTÃO alternar entre METHOD 2.1 e 2.2
-
-
 - GOAL 3: Responder a alerta de foco de incêndio
   - METHOD 3.1: Identificar e analisar alerta
+  - SEL.RULE: O alerta visual deve ser destacado com uma cor forte (vermelho) se o nível de risco de fogo for crítico.
 
     - OP 3.1.1: Perceber notificação visual
     - OP 3.1.2: Clicar no alerta para abrir detalhes
@@ -157,6 +156,7 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
     - OP 3.1.6: Ler nível de severidade (baixo, médio, alto)
 
   - METHOD 3.2: Validar alerta
+  - SEL.RULE: O sistema deve comparar os dados atuais com o histórico do sensor para determinar se há uma mudança significativa e indicar qualquer anomalia (ex: valor de temperatura muito superior ao histórico recente).
 
     - OP 3.2.1: Comparar dados atuais com histórico
     - OP 3.2.2: Verificar demais sensores 
@@ -164,6 +164,7 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
     - OP 3.2.4: Tomar decisão (válido ou falso positivo)
 
   - METHOD 3.3a: Encaminhar alerta válido
+  - SEL.RULE: O botão "Encaminhar" deve estar desabilitado até que todos os campos obrigatórios (email da equipe, mensagem de alerta) sejam preenchidos.
 
     - OP 3.3a.1: Clicar em botão "Encaminhar"
     - OP 3.3a.2: Selecionar email da equipe de campo
@@ -171,18 +172,14 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
     - OP 3.3a.4: Verificar confirmação de notificação enviada
 
   - METHOD 3.3b: Descartar falso alarme
-
+  - SEL.RULE: Após o descarte, o alerta deve ser removido da lista de notificações.
+  
     - OP 3.3b.1: Clicar em botão "Descartar alerta"
     - OP 3.3b.2: Confirmar descarte
 
-  - SELECTION RULE 3.A:
-
-    - SE alerta validado como real (dados consistentes + severidade confirmada), ENTÃO usar METHOD 3.3a
-    - SE alerta identificado como falso positivo, ENTÃO usar METHOD 3.3b
-
-
 - GOAL 4: Registrar e documentar eventos
   - METHOD 4.1: Atualizar status do evento
+  - SEL.RULE: O sistema deve validar que um novo status foi selecionado corretamente (ex: "Em andamento", "Em análise", etc.).
 
     - OP 4.1.1: Localizar evento na dashboard
     - OP 4.1.2: Clicar no evento para abrir detalhes
@@ -192,6 +189,7 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
     - OP 4.1.6: Verificar atualização confirmada
 
   - METHOD 4.2: Gerar relatório
+  - SEL.RULE: O botão "Gerar" deve estar desabilitado até que todas as seleções de data e formato de exportação sejam feitas.
 
     - OP 4.2.1: Navegar até seção "Relatórios"
     - OP 4.2.2: Clicar em "Novo Relatório"
@@ -201,11 +199,6 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
     - OP 4.2.6: Clicar em "Gerar"
     - OP 4.2.7: Aguardar processamento
     - OP 4.2.8: Baixar arquivo gerado
-
-  - SELECTION RULE 4.A:
-    
-    - SE evento ainda em andamento, ENTÃO usar METHOD 4.1
-    - SE precisa documentação final/análise histórica, ENTÃO usar METHOD 4.2
 
 ---
 
