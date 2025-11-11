@@ -30,20 +30,21 @@
 
 | Metas | Justificativa |
 | ----- | :---- |
-| Facilidade de uso com a interface | É esperado que a interface do sistema seja intuitiva e responsiva  |
+| Facilidade de uso com a interface | É esperado que a interface do sistema seja intuitiva e responsiva.  |
 | Atualização dos dados | É esperado que os dados de temperatura sejam atualizados em tempo real no painel, tanto nos gráficos quanto no mapa de geolocalização. |
 | Confiabilidade nas informações dos sensores | É esperado que os sensores enviem informações de temperatura dentro de valores possíveis/esperados (ex: é esperado valores em torno de 40 a 50 graus; não são esperados valores abaixo de 20 graus negativos).  |
-| Permitir que o usuário mude o status de alertas de incêncio | É esperado que o usuário consiga alterar os status dos alertas de incêndio com praticidade e rapidez para melhor fluxo de monitoramento. |
+| Facilidade de personalização e manutenção do painel | O usuário deve conseguir editar o painel com facilidade, adicionando novos dispositivos, ajustando métricas e personalizando alertas sem necessidade de suporte técnico. |
 | Disponibilidade dos dados | É esperado que os dados gráficos, geográficos, referentes ao sensores, e notificações e alertas, estejam disponíveis a qualquer momento conforme solicitado pelo usuário. |
 
-
    2. **Quantitativo**  
-    
-| Metas | Porcentagem | Justificativa |
-| ----- | :---- | :---- |
-| Facilidade de … |  |  |
-|  |  |  |
-|  |  |  |
-|  | 1% |  |
-|  | 20% |  |
-| **Total** | **100%** |  |
+
+| **Metas** | **Porcentagem** | **Justificativa** |
+|------------|:---------------:|-------------------|
+| **Facilidade de uso com a interface** | 25% | A interface intuitiva e responsiva é essencial para que usuários identifiquem rapidamente alertas e dados sem treinamento prévio. |
+| **Atualização dos dados** | 20% | A atualização em tempo real é fundamental para garantir que as informações exibidas representem com precisão as condições atuais. |
+| **Confiabilidade nas informações dos sensores** | 25% | Dados incorretos de temperatura podem gerar falsos alertas ou omitir riscos, comprometendo a credibilidade do sistema. |
+| **Facilidade de personalização e manutenção do painel** | 15% | A personalização permite adaptar o painel às necessidades de cada operação, facilitando a gestão dos dispositivos. |
+| **Disponibilidade dos dados** | 15% | O acesso contínuo às informações garante o monitoramento constante e a tomada de decisão sem interrupções. |
+| **Total** | **100%** | — |
+
+
