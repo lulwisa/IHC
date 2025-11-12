@@ -40,13 +40,47 @@ O sistema possui as seguintes funcionalidades principais:
   - 3.3. Gerar relatório final  
 -->
 
-| Objetivos e Operações | Problemas e Recomendações |
+<!-- | Objetivos e Operações | Problemas e Recomendações |
 | :---- | :---- |
 |  |  |
 ||  |
 |  |  |
 |  |   |
 |  |  |
+-->
+
+# HTA – Análise Hierárquica de Tarefas
+
+| **Objetivo** | **Problemas e Recomendações** |
+|---------------|-------------------------------|
+| **1. Acessar sistema** (pré-requisito para todas as tarefas) | **Problemas:** Login pode ser confuso se interface não indicar erros claramente.<br>**Recomendações:** Exibir mensagens de erro específicas e feedback visual no carregamento. |
+| 1.1. Fazer login no sistema | **Problemas:** Campos de login sem rótulos claros ou validação imediata.<br>**Recomendações:** Adicionar placeholders, ícones e labels organizadas. |
+| 1.2. Carregar dashboard principal | **Problemas:** Tempo de carregamento sem indicador de progresso.<br>**Recomendações:** Mostrar barra de carregamento. |
+| **2. Monitorar área de risco** (tarefa contínua) | **Problemas:** Excesso de informações simultâneas pode gerar sobrecarga cognitiva.<br>**Recomendações:** Usar hierarquia visual e cores consistentes para alertas. |
+| 2.1. Visualizar mapa de sensores | **Problemas:** Mapa com ícones muito próximos ou ilegíveis.<br>**Recomendações:** Implementar zoom. |
+| 2.2. Monitorar painel de alertas | **Problemas:** Alertas não priorizados.<br>**Recomendações:** Usar cores diferentes para níveis de severidade. |
+| 2.3. Verificar leituras individuais de sensores | **Problemas:** Navegação pouco intuitiva entre sensores.<br>**Recomendações:** Permitir filtros e busca rápida. |
+| 2.3.1. Verificar temperatura | **Problemas:** Falta de unidade de medida ou escala de referência.<br>**Recomendações:** Mostrar °C e limites seguros. |
+| 2.3.2. Verificar riscos | **Problemas:** Dados sem contexto de normalidade.<br>**Recomendações:** Usar faixas de cor para indicar risco. |
+| 2.3.3. Verificar umidade | **Problemas:** Gráficos sem legenda.<br>**Recomendações:** Incluir legenda e histórico comparativo. |
+| **3. Responder a alerta de foco de incêndio** | **Problemas:** Alerta pode passar despercebido em meio a outras notificações.<br>**Recomendações:** Usar cores chamativas para destaque visual urgente. |
+| 3.1. Receber notificação visual | **Problemas:** Falta de diferenciação entre tipos de alerta.<br>**Recomendações:** Adotar padrão de cor para cada categoria. |
+| 3.2. Analisar dados do alerta | **Problemas:** Excesso de informações em tela única.<br>**Recomendações:** Destacar dados críticos. |
+| 3.2.1. Verificar valores dos sensores | **Problemas:** Interface técnica demais para usuários não especializados.<br>**Recomendações:** Usar ícones e rótulos intuitivos. |
+| 3.2.2. Confirmar localização no mapa | **Problemas:** Mapa sem marcador claro.<br>**Recomendações:** Centralizar e destacar área do alerta automaticamente. |
+| 3.2.3. Avaliar nível de severidade | **Problemas:** Falta de escala visual padronizada.<br>**Recomendações:** Usar barras de intensidade, cores e legenda textual. |
+| 3.3. Decidir ação | **Problemas:** Falta de suporte à decisão.<br>**Recomendações:** Exibir opções guiadas (encaminhar, descartar, revisar). |
+| 3.3.1. Se alerta válido: encaminhar para equipe | **Problemas:** Fluxo de comunicação pode ser lento.<br>**Recomendações:** Automatizar envio e registrar responsável. |
+| 3.3.2. Se falso alarme: descartar e registrar | **Problemas:** Falta de justificativa obrigatória.<br>**Recomendações:** Exigir motivo e salvar no histórico. |
+| **4. Registrar e documentar** | **Problemas:** Processos manuais e repetitivos.<br>**Recomendações:** Automatizar registros e gerar relatórios padrão. |
+| 4.1. Atualizar status do evento | **Problemas:** Status pouco claros ou ambíguos.<br>**Recomendações:** Definir cores distintas para cada status. |
+| 4.1.1. Marcar status (em análise/atendimento/resolvido) | **Problemas:** Erros de seleção manual.<br>**Recomendações:** Usar menus suspensos e bloqueio de opções inválidas. |
+| 4.1.2. Inserir observações | **Problemas:** Campo pequeno ou sem limite de caracteres.<br>**Recomendações:** Usar campo expansível com contador de caracteres. |
+| 4.2. Salvar no histórico | **Problemas:** Usuário pode esquecer de salvar.<br>**Recomendações:** Habilitar salvamento automático. |
+| 4.3. Gerar relatório | **Problemas:** Geração demorada ou confusa.<br>**Recomendações:** Mostrar progresso e permitir exportação direta. |
+| 4.3.1. Exportar arquivo | **Problemas:** Falta de formato adequado ou confirmação.<br>**Recomendações:** Oferecer múltiplos formatos (PDF, CSV) e mensagem de sucesso. |
+
+
 
 1. Acessar sistema (pré-requisito para todas as tarefas)
    - 1.1. Fazer login no sistema
@@ -61,7 +95,7 @@ O sistema possui as seguintes funcionalidades principais:
        - 2.3.3. Verificar umidade
 
 3. Responder a alerta de foco de incêndio (quando foco é detectado)
-   - 3.1. Receber notificação visual/sonora
+   - 3.1. Receber notificação visual
    - 3.2. Analisar dados do alerta
        - 3.2.1. Verificar valores dos sensores
        - 3.2.2. Confirmar localização no mapa
