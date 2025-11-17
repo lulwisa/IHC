@@ -2,11 +2,11 @@
 
 Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](http://lattes.cnpq.br/6747210702910392) e Prof. Dr. [Plino Thomaz Aquino Junior](http://lattes.cnpq.br/6186413528999908).
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Título do TCC** sob orientação do Professor **Nome do Orientador** e desenvolvido pelos seguintes alunos:
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **PROJETO BOITATÁ-II: MONITORAMENTO DE QUEIMADAS: Uma infraestrutura moderna, segura e escalável** sob orientação do Professor **Marco Antonio Assis de Melo** e desenvolvido pelos seguintes alunos:
 
-- Ana Beatriz de Souza
-- Luísa Graça
-- Nathan Dantas
+- Ana Beatriz de Souza: 24.122.018-5
+- Luísa Graça: 24.122.058-1
+- Nathan Dantas: 24.122.041-7
 
 ## Conhecendo o problema
 
