@@ -47,12 +47,12 @@ O projeto resolve a detecção tardia de queimadas em áreas remotas, que atualm
 - Estações de monitoramento automáticas baseadas em Arduino;  
 - Comunicação **LoRa P2P** para transmissão de dados em áreas de difícil acesso;  
 - Painel de monitoramento central com visualização em tempo real de alertas;  
-- Alertas automáticos via aplicativo ou painel web.
+- Alertas automáticos via email ou painel web.
 
 **Tecnologias e ferramentas:**  
-- **Hardware:** Arduino MKR WAN 1310, sensor de temperatura DS18B20, antena amplificadora monopolo;  
-- **Software:** máquinas virtuais (VMware Workstation + Ubuntu), painel web integrado com React.js, backend em Java (SpringBoot + Maven);  
-- **Comunicação:** LoRa P2P, banco de dados PostgreSQL, CloudFlare Tunnel (Zero Trust), OpenVPN, Docker Compose.
+- **Hardware:** Arduino MKR WAN 1310, ESP32-VROOM-32D, sensor de temperatura DS18B20, antena amplificadora monopolo;  
+- **Software:** máquinas virtuais para desenvolvimento e testes (VMware Workstation + Ubuntu), painel web interativo desenvolvido com Grafana, API dedicada desenvolvida em python (FastAPI);  
+- **Comunicação:** LoRa P2P, banco de dados PostgreSQL, CloudFlare Tunnel (Zero Trust), Docker Compose.
 
 **Contexto de uso:**  
 - **Usuários:** equipes de prevenção e combate a incêndios florestais, órgãos ambientais, pesquisadores;  
