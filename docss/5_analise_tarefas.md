@@ -248,5 +248,5 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
 
 **Funcionalidade:** Visualização de alertas e monitoramento de sensores  
 
-(Ana)
+
 
