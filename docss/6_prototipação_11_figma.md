@@ -15,7 +15,8 @@
 ![gerenciamento dispositivos](https://github.com/user-attachments/assets/ec310dfa-a8af-47cf-8c2f-250a6ecc050f)
 
 ## Histórico de Temperatura
-![historico temperatura](https://github.com/user-attachments/assets/3b8e3f9b-2f6b-41c9-88aa-e783b9ed77e6)
+![historico temperatura](https://github.com/user-attachments/assets/79264e2d-ccb7-4f0f-8353-51f54d32b216)
+<!-- <img width="1882" height="458" alt="image" src="https://github.com/user-attachments/assets/79264e2d-ccb7-4f0f-8353-51f54d32b216" /> -->
 
 ## Notificações e Alertas
 ![alertas](https://github.com/user-attachments/assets/bd8cac89-723b-4a38-b87b-fc1f938c1458)
