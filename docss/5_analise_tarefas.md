@@ -247,6 +247,6 @@ GOAL 0: Monitorar focos de incêndio e notificar equipes
 ## 3. CTT (ConcurTaskTrees)
 
 **Funcionalidade:** Visualização de alertas e monitoramento de sensores  
-
+<img width="708" height="567" alt="image" src="https://github.com/user-attachments/assets/6c8d7796-851c-42df-9168-07ebded68cb5" />
 
 
